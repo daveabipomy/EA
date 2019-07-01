@@ -2,7 +2,9 @@ package model;
 
 import lombok.Data;
 
+import java.sql.Time;
 import java.text.DateFormat;
+import java.time.LocalTime;
 import java.util.Date;
 import java.util.Locale;
 
@@ -23,12 +25,12 @@ public class Flight {
 	private String flightnr;
 	@Temporal(TemporalType.DATE)
 	private Date departureDate;
-	@Temporal(TemporalType.TIME)
-	private Date departureTime;
+
+	private LocalTime departureTime;
 	@Temporal(TemporalType.DATE)
 	private Date arrivalDate;
-	@Temporal(TemporalType.TIME)
-	private Date arrivalTime;
+
+	private LocalTime arrivalTime;
 	@ManyToOne(cascade = CascadeType.PERSIST)
 	private Airline airline;
 	@ManyToOne(cascade = CascadeType.PERSIST)
@@ -47,8 +49,8 @@ public class Flight {
 	public Flight() {
 	}
 
-	public Flight(String flightnr, Date departureDate, Date departureTime,
-			Date arrivalDate, Date arrivalTime) {
+	public Flight(String flightnr, Date departureDate, LocalTime departureTime,
+			Date arrivalDate, LocalTime arrivalTime) {
 		this.flightnr = flightnr;
 		this.setDepartureDate(departureDate);
 		this.setDepartureTime(departureTime);
@@ -57,8 +59,8 @@ public class Flight {
 
 	}
 
-	public Flight(String flightnr, Date departureDate, Date departureTime,
-			Date arrivalDate, Date arrivalTime, Airline airline,
+	public Flight(String flightnr, Date departureDate, LocalTime departureTime,
+			Date arrivalDate, LocalTime arrivalTime, Airline airline,
 			Airport origin, Airport destination, Airplane airplane) {
 		this.flightnr = flightnr;
 		this.setDepartureDate(departureDate);
@@ -72,4 +74,6 @@ public class Flight {
 	}
 
 
+//	public Flight(String d23, Date parse, Date parse1, Date parse2, Date parse3, Airline airline, Airport airport, Airplane airplane) {
+//	}
 }
