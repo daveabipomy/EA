@@ -25,14 +25,13 @@ public class App {
         Order order2 = new Order(dateFormat.parse("5-10-2019"));
 
 
+        CD cd = new CD("Movie", "New", "The Vow");
+        DVD dvd = new DVD("Type", "New", "Romantic");
+        Book book = new Book("Book", "New", "The Secrete");
 
-        CD cd = new CD("Movie","New","The Vow");
-        DVD dvd = new DVD("Type","New","Romantic");
-        Book book = new Book("Book","New","The Secrete");
-
-        OrderLine orderLine1 = new OrderLine(50,book);
-        OrderLine orderLine2 = new OrderLine(33,cd);
-        OrderLine orderLine3 = new OrderLine(12,dvd);
+        OrderLine orderLine1 = new OrderLine(50, book);
+        OrderLine orderLine2 = new OrderLine(33, cd);
+        OrderLine orderLine3 = new OrderLine(12, dvd);
 
 
         order1.addOrderLine(orderLine1);
@@ -44,6 +43,32 @@ public class App {
 
         em.persist(customer1);
         em.getTransaction().commit();
-        em.close();
+
+
+        em.getTransaction().begin();
+        System.out.println("Order with orderNumber: " + order1.getId());
+        System.out.println("Order date: " + order1.getDate());
+
+        Customer cust = order1.getCustomer();
+        System.out.println("Customer: " + cust.getFirstname() + " "
+                + cust.getLastname());
+        for (OrderLine orderline : order1.getOrderLineList()) {
+            System.out.println("Order line: quantity= "
+                    + orderline.getQuantity());
+            Product product = orderline.getProduct();
+            System.out.println("Product: " + product.getName() + " "
+                    + product.getDescription());
+            if (product instanceof Book) {
+                System.out.println("Book title = "
+                        + ((Book) product).getTitle());
+            }
+            if (product instanceof CD) {
+                System.out.println("CD artist = " + ((CD) product).getArtist());
+            }
+            if (product instanceof DVD) {
+                System.out.println("DVD genre = " + ((DVD) product).getGenre());
+            }
+            em.close();
+        }
     }
 }
