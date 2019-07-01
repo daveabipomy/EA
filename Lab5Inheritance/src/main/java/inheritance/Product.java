@@ -1,4 +1,4 @@
-package notInheritance;
+package inheritance;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,6 +10,7 @@ import java.util.List;
 @Data
 @Entity
 @NoArgsConstructor
+@Inheritance(strategy = InheritanceType.JOINED)
 public class Product {
     @Id
     @GeneratedValue

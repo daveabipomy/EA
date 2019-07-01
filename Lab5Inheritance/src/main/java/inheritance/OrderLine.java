@@ -1,11 +1,13 @@
-package notInheritance;
+package inheritance;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 
 @Data
 @Entity
+@NoArgsConstructor
 public class OrderLine {
     @Id
     @GeneratedValue
@@ -17,4 +19,9 @@ public class OrderLine {
 
     @ManyToOne(cascade = {CascadeType.PERSIST})
     private Product product;
+
+    public OrderLine(int quantity, Product product) {
+        this.quantity = quantity;
+        this.product = product;
+    }
 }

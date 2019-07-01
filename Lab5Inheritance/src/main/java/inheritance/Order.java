@@ -1,4 +1,4 @@
-package notInheritance;
+package inheritance;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -25,6 +25,12 @@ public class Order {
     @OneToMany(mappedBy = "order",cascade = {CascadeType.PERSIST})
     private List<OrderLine> orderLineList=new ArrayList();
 
+
+    public  void addOrderLine(OrderLine orderLine)
+    {
+        orderLine.setOrder(this);
+        orderLineList.add(orderLine);
+    }
 
     public Order(Date date) {
         this.date = date;

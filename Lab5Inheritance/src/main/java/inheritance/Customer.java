@@ -1,4 +1,4 @@
-package notInheritance;
+package inheritance;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
