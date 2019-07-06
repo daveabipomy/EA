@@ -1,7 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6cddbfd-92fd-48af-9e1b-dff17462c73b" name="Default Changelist" comment="" />
+    <list default="true" id="e6cddbfd-92fd-48af-9e1b-dff17462c73b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Lab7Optimization/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7Optimization/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7Optimization/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7Optimization/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7Optimization/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7Optimization/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7Optimization/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7Optimization/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7Optimization/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7Optimization/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7Optimization/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7Optimization/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7Optimization/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7Optimization/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7Optimization/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7Optimization/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7Optimization/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7Optimization/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7Optimization/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7Optimization/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7Optimization/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_4_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7Optimization/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7Optimization/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7Optimization/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7Optimization/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7Optimization/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7Optimization/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7Optimization/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7Optimization/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7Optimization/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7Optimization/Lab7-Optimization.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/src/main/java/Owner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/src/main/java/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/src/main/java/Populate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5Complex.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5Complex/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5Complex/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5Inheritance.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6JPQL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6JPQL/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,13 +106,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs544/AppBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="493">
               <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#0#9#1" expanded="true" />
-                <element signature="e#0#9#1" expanded="true" />
-                <element signature="e#0#9#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,6 +124,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -85,6 +135,13 @@
         <option value="$PROJECT_DIR$/src/main/resources/entityGenConfig.yml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/mum/cs544/AppBook.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -104,6 +161,7 @@
     <option name="width" value="1350" />
     <option name="height" value="690" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -111,66 +169,16 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="W1D4-Hibernate-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab2-Hibernate-2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="W1D4-Hibernate-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab2-Hibernate-2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="W1D4-Hibernate-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab2-Hibernate-2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="W1D4-Hibernate-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab2-Hibernate-2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="W1D4-Hibernate-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab2-Hibernate-2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cs544" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="W1D4-Hibernate-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab2-Hibernate-2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="W1D4-Hibernate-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab2-Hibernate-2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HelloWorldLab" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -223,16 +231,17 @@
       <updated>1561579633689</updated>
       <workItem from="1561579641364" duration="5300000" />
       <workItem from="1561585052491" duration="1057000" />
+      <workItem from="1562119736976" duration="41000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6357000" />
+    <option name="totallyTimeSpent" value="6398000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25285044" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2562039" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" side_tool="true" />
@@ -392,13 +401,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs544/AppBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="493">
           <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#0#9#1" expanded="true" />
-            <element signature="e#0#9#1" expanded="true" />
-            <element signature="e#0#9#1" expanded="true" />
           </folding>
         </state>
       </provider>
