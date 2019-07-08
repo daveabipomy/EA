@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <import resource="config.xml"/>
+
+
+<!--    -<bean class="cs544.spring.bank.service.AccountService" id="accountService">-->
+
+<!--    <constructor-arg ref="accountDAO" index="0"/>-->
+
+<!--    <constructor-arg ref="currencyConverter" index="1"/>-->
+
+<!--    <constructor-arg ref="jmsSender" index="2"/>-->
+
+<!--    <constructor-arg ref="logger" index="3"/>-->
+
+<!--</bean>-->
+
+<!--    <bean class="cs544.spring.bank.logging.Logger" id="logger"/>-->
+
+<!--    <bean class="cs544.spring.bank.service.CurrencyConverter" id="currencyConverter"/>-->
+
+<!--    <aop:aspectj-autoproxy/>-->
+
+<!--    <bean class="cs544.spring.bank.aop.ServiceTimerAdvice" id="serviceTimerAdvice"/>-->
+</beans>
