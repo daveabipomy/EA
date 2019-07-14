@@ -12,7 +12,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="book" options="-endorseddirs C:\Users\Pomi-dave\Desktop\EA\GitLab\EA\book\target/endorsed" />
+      <module name="book" options="-endorseddirs C:\Users\Pomi-dave\Desktop\EA\GitLab\EA\Lab11\target/endorsed" />
     </option>
   </component>
 </project>

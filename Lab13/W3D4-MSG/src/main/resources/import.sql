@@ -1,0 +1,2 @@
+INSERT INTO Book VALUES(NULL, '978-3-16-148410-7','Book1 Title', 45.12, 'Awe');
+INSERT INTO Book VALUES(NULL, '978-3-16-148410-9', 'Book2 Title', 15.28, 'Yac');
